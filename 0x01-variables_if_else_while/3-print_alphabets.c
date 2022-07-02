@@ -23,5 +23,5 @@ int main(void)
 	}
 	putchar(10); /*This is Ascii newline*/
 
-	return (0);/*returns 0*/
+int	return (0);/*returns 0*/
 }
