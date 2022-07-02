@@ -10,6 +10,7 @@
 
 int main(void)
 {
+	/*my main code*/
 	int ch;
 
 	for (ch = 97; ch <= 122; ch++)
