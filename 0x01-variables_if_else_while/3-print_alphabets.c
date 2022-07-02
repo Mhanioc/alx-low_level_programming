@@ -6,16 +6,16 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-char low;
-for (low = 'a'; low <= 'z'; low++)
-        {putchar(low);
-        }
-for (low = 'A'; low <= 'Z'; low++)
-	{putchar(low);
-	}
+int main(void){
+	int ch;
 
-putchar('\n');
-return (0);
+	for (ch = 97;ch <= 122;ch++){
+		putchar(ch);
+	}
+	for(ch = 65; ch <= 90; ch++){
+		putchar(ch);
+	}
+	putchar(ch);
+	return (0);
+	
 }
