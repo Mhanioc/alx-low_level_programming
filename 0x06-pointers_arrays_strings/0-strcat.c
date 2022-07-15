@@ -1,40 +1,24 @@
-#include <stdio.h>
+#include <main.h>
 
 
 char *_strcat(char *dest, char *str)
 {
-	char fullStr[];
+	dest = "hello ";
+	str = "World";
 
-    int strLen = (strlen(dest) + strlen[str]);
-    int dest_len = strlen(dest);
+	int i;
+	int j;
 
-	int i = 0;
-	while(dest[i] != '\0')
+	for(i = 0; dest[i] != '\0'; i++)
 	{
-		fullStr[i] = dest[i];
-		i++;
+		
+	}
+	for( j = 0; src[j]; j++,i++)
+	{
+			dest[i] = src[j];
 	}
 
-	for(int i = 0; i <= dest_len; i++){
-		if (dest[i] != '\0')
-		{
-			fullStr[i] = dest[i];
-			i++;
-		}else
-		{
-			fullStr[i] = " ";
-		}
-	}
-    
+	dest[i] = '\0';
 
-	for(int i = 0; i <= str_len; i++){
-		if (dest[i] != '\0')
-		{
-			fullStr[i] = dest[i];
-			i++;
-		}else
-		{
-			putchar('\n') ;
-		}
-	}
+	return dest;
 }
