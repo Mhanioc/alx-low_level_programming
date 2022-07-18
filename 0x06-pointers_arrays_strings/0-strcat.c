@@ -6,14 +6,13 @@ char *_strcat(char *dest, char *str)
 	dest = "hello ";
 	str = "World";
 
-	int i;
-	int j;
+	int i = 0;
 
-	for(i = 0; dest[i] != '\0'; i++)
+	while(dest[i] != '\0')
 	{
-		
+		i++;
 	}
-	for( j = 0; src[j]; j++,i++)
+	for(int j = 0; src[j]; j++,i++)
 	{
 			dest[i] = src[j];
 	}
