@@ -6,11 +6,11 @@ char *_strcat(char *dest, char *str)
 
 int len = 0,i;
 
-while(dest[len])
+while (dest[len])
 {
 i++;
 
-for(int i = 0; str[i]; i++)
+for (int i = 0; str[i]; i++)
 {
 dest[len] = str[i];
 }
