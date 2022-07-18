@@ -5,9 +5,9 @@ char *_strcat(char *dest, char *str)
 {
 int len = 0, i;
 
-while (dest[len])
+for (len = 0; dest[len]; len++)
 {
-len++;
+
 }
 for (i = 0; str[i]; i++)
 {
