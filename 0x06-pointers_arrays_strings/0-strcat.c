@@ -15,5 +15,6 @@ for (int i = 0; str[i]; i++)
 dest[len] = str[i];
 }
 dest[len] = '\0';
-return dest;
+return (dest);
 }
+
