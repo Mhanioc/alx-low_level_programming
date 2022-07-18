@@ -4,18 +4,20 @@
 char *_strcat(char *dest, char *str)
 {
 
-	int i = 0;
+int len = 0,i;
 
-	while(dest[i] != '\0')
-	{
-		i++;
-	}
-	for(int j = 0; src[j]; j++,i++)
-	{
-			dest[i] = src[j];
-	}
+while(dest[len])
+{
+i++;
 
-	dest[i] = '\0';
+for(int i = 0; str[i]; i++)
+{
+dest[len] = str[i];
+}
 
-	return dest;
+dest[len] = '\0';
+return dest;
+}
+
+	
 }
