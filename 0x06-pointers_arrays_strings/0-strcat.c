@@ -3,8 +3,6 @@
 
 char *_strcat(char *dest, char *str)
 {
-	dest = "hello ";
-	str = "World";
 
 	int i = 0;
 
